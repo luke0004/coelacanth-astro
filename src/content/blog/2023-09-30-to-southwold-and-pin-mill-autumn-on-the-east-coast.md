@@ -1,0 +1,65 @@
+---
+title: "To Southwold and Pin Mill – Autumn on the East Coast"
+date: 2023-09-30
+categories: ["Logbook"]
+tags: ["England"]
+description: "From the West Frisian island of Texel to England’s East Coast."
+---
+
+In September 2023, we sailed Coelacanth from the West Frisian island of Texel to England’s East Coast.
+
+https://youtu.be/4mnYeREf3jo
+
+After a night in Lowestoft, we sailed into the River Blyth and moored in the town of Southwold — with its working fishing boats, pub at the landing dock, 15th-century church, and lighthouse shining over the bar. From there we continued southward to the River Orwell, past the marshes and into Pin Mill, where the historic Butt & Oyster pub sits beneath the trees. We lingered at Shotley and Woolverstone before sailing home across a quieter North Sea.
+
+<figure>
+
+<figure>
+
+![](../../assets/Southwold_20230904_162220-scaled.jpg)
+
+<figcaption>
+
+In the pub in Southwold.
+
+</figcaption>
+
+</figure>
+
+<figure>
+
+![](../../assets/Southwold_20230904_174218-scaled.jpg)
+
+<figcaption>
+
+Fresh lobster, Southwold
+
+</figcaption>
+
+</figure>
+
+<figure>
+
+![](../../assets/Southwold_20230906_155330-scaled.jpg)
+
+<figcaption>
+
+St Edmund's Church, Southwold
+
+</figcaption>
+
+</figure>
+
+<figure>
+
+![](../../assets/Southwold_LS_1056-scaled.jpg)
+
+<figcaption>
+
+Morning in Southwold
+
+</figcaption>
+
+</figure>
+
+</figure>

@@ -1,0 +1,37 @@
+---
+import '../styles/global.css';
+const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+    <title>{title}</title>
+</head>
+<body>
+
+  <header>
+    <h1>{title}</h1>
+    <nav>
+      <a href="/">The Ship</a> | 
+      <a href="/blog/">Logbook</a> | 
+      <a href="https://www.youtube.com/@sy.coelacanth">YouTube</a>
+    </nav>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer>
+    © {new Date().getFullYear()} Coelacanth
+  </footer>
+
+</body>
+</html>

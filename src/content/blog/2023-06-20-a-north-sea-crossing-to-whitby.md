@@ -1,0 +1,17 @@
+---
+title: "A North Sea Crossing to Whitby"
+date: 2023-06-20
+categories: ["Logbook"]
+tags: ["England"]
+description: "From the West Frisian island of Vlieland, bound for the Yorkshire coast."
+---
+
+In June 2023, we set sail from the West Frisian island of Vlieland, bound for the Yorkshire coast. Underway on the North Sea, we encountered a striking algal bloom — Noctiluca scintillans — turning the sea to a strange, glowing red.
+
+https://youtu.be/tFubOvpm\_mU
+
+Landfall was Whitby: a town steeped in maritime history, where James Cook began his apprenticeship and his expedition ships were built. The approach to Whitby demands timing — the 1909 steel swing bridge over the River Esk opens only ±2 hours around high water. Not easy to get the timing right after a 220 miles passage!
+
+After only a brief stay of a few days – including a pint in the fishing village Sandsend – we sailed 235 miles in 40 hours back across the North Sea to the Frisian island of Texel. We arrived at midnight and felt proud when our neighbours in the marina congratulated us.
+
+It felt adventurous to sail through Dogger, the sea area named after Dutch cod-fishing boats, we knew so far only from the shipping forecast. These fishing vessels were called doggers because they were fishing for _doggevis_ in this shallower area as early as in the 14th century. Even earlier, about 9000 years ago, people were living in this area before glaciers melted and the sea rose. In those times, it would have been possible to cross the North Sea by foot – twenty metres below where we were now sailing on Coelacanth. Different time levels indeed.

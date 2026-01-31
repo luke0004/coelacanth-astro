@@ -1,0 +1,56 @@
+:root {
+  --text-color: #555;
+  --bg-color: #ffffff;
+  --accent: #0b6efd;
+  --max-width: 800px;
+}
+
+html {
+  font-family: "Courier Prime", monospace, Courier, Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  border-bottom: dashed 1px #555;
+}
+a:hover {
+  color: var(--accent);
+}
+
+header, footer {
+    text-align: center;
+  padding: 1rem;
+  background: var(--bg-color);
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3 {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+figure {
+    margin: 1.5rem 0 2rem 0;
+}
+figcaption {
+    color:#888;
+}

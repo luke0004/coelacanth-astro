@@ -1,0 +1,31 @@
+---
+title: "Five Islands in the North Sea"
+date: 2024-07-12
+categories: ["Logbook"]
+tags: ["Denmark", "Germany", "Netherlands"]
+description: "A planned crossing to Norway becomes a passage along the edge of the North Sea: Vlieland, Esbjerg, Fanø, Rømø, Helgoland, Spiekeroog."
+---
+
+A planned crossing to Norway becomes a passage along the edge of the North Sea: Vlieland, Esbjerg, Fanø, Rømø, Helgoland, Spiekeroog.
+
+https://www.youtube.com/watch?v=y-OJVOFmhLI
+
+In June 2024, we set sail from Vlieland, bound for Norway — but the wind had other plans. Northerlies had built a long, cold swell, and the promised westerlies never came. We bore away, and under a shifting moon and heavy sea, off Norderney, we were finally able to turn north. The second night brought us to Esbjerg, Denmark.
+
+When I got up into the cockpit to take the night watch over from my son, he showed me the most intense glowing trail Coelacanth was leaving behind in the water. Bioluminescent plankton (most likely [Noctiluca scintillans](https://coelacanth.ch/a-north-sea-crossing-to-whitby/), as observed on a previous journey) is mechanically activated to emit light. The chemical explanation cannot describe the spectacle of gliding through a trail of light in the dark sea.
+
+##### Esbjerg, a place of transitions
+
+Esbjerg is one of these places where sailors meet in transition, discussing their plans and the weather. It's one of the few harbours on Denmark's west coast that is accessible also in unfavourable conditions – although through a rough approach channel though the shallow water. Many ships have catastrophically stranded on the Danish lee shore in westerly gales. The marina is modern, albeit with the number of toilets and showers is in dysbalance with the number of berths. To shower, we had to pass through the club room of the welcoming local boaters enjoying their lounge. The queue grew quite long in the morning even though only three visiting sailing yachts were in the marina.
+
+One of the yachts that arrived a few hours after us was a Germán Frers 48 with a group of distinguished Dutch sailors on board. They were en route to Oslo helping their friend deliver the boat to his summer cruising destination. Underway, they had radioed a cruise ship to get the latest weather and diverted to Esbjerg. They were the first to leave in the early morning after the near-gale – when I was still half-asleep in my bunk. After just a few hours, they returned after having noticed water in the bow cabin, and abandoned their trip for repairs. The third visiting boat in the marina was an Allure with a sportive Frenchman and his wife who went on to sail to the Lofoten.
+
+Funny enough, we met one of the Dutch sailors again in Vlieland when we returned from our five-islands-North-Sea trip.
+
+##### Another Change in Plan
+
+Running out of time, we gave up on our plan to reach Norway and went on to Fanø, that one of the local sailors called the prettiest of the Danish isles. We met an economic professor planning his retirement – selling sandwiches and bird photographs in his bar. He recommended to visit the south of Fanø. So we rented bikes and cycled to Sønderho – a beautiful village.
+
+We also met several retired cargo ship captains – Fanø has Denmark's oldest maritime school. One of the local sailors told the story of a Biscay crossing by sailboat. In those days, there was no AIS, so he trusted his nose to smell the smoke of approaching motor ships. A technique that led to a collision, the loss of his boat, and his narrow escape by dinghy.
+
+After a few days, we sailed southward to Rømø and Helgoland, and then returned via Spiekeroog to the Dutch coast — a voyage re-shaped by wind, current, and chance.
