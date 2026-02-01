@@ -4,17 +4,36 @@ import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
-  return posts.map(post => ({
+  const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+  return sortedPosts.map((post, index) => ({
     params: { slug: post.slug },
-    props: post,
+    props: {
+      post,
+      prevPost: sortedPosts[index + 1] || null,
+      nextPost: sortedPosts[index - 1] || null,
+    },
   }));
 }
 
-const post = Astro.props;
+const { post, prevPost, nextPost } = Astro.props;
 const { Content } = await post.render();
 ---
 
 <BaseLayout title="Coelacanth">
   <h2>{post.data.title}</h2>
   <Content />
+
+  <nav class="post-nav">
+    {prevPost && (
+      <a href={`/blog/${prevPost.slug}/`} class="prev">
+        ← {prevPost.data.title}
+      </a>
+    )}
+    {nextPost && (
+      <a href={`/blog/${nextPost.slug}/`} class="next">
+        {nextPost.data.title} →
+      </a>
+    )}
+  </nav>
 </BaseLayout>
