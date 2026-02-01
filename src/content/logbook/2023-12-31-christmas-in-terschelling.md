@@ -4,6 +4,7 @@ date: 2023-12-31
 categories: ["Logbook", "Tinker"]
 tags: ["Netherlands"]
 description: "It's a tradition to sail to the Frisian island of Terschelling over the days between Christmas and New Year."
+image: ../../assets/20231226_Terschelling-christmas-scaled.jpg
 ---
 
 It's a tradition to sail to the Frisian island of Terschelling over the days between Christams and New Year. Winter storms howl over the North Sea. The ships present extensive festive lights, and when the year ends, the horns of the big ships welcome the new year sounding all over the place.

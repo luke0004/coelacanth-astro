@@ -4,6 +4,7 @@ date: 2021-10-01
 categories: ["Logbook"]
 tags: ["Netherlands"]
 description: "Coelacanth is a Hutting 40, a full-keeler built in 2001 by Frisian Hutting Yachts."
+image: ../../assets/20211001_-Coelacanth_11.jpg
 ---
 
 _Coelacanth_ is a Hutting 40, a full-keeler built in 2001 by Frisian [Hutting Yachts](http://www.hutting-yachts.com/). Her hull is aluminium with a length of 12.1 m, width 3.6 m, and draught 1.6 m. Displacement 13.4 tons, half of it being cast-in lead ballast. She’s cutter-rigged with a 16 metre mast, main sail 42 m<sup>2</sup>, yankee 39 m<sup>2</sup>, and stay sail 16 m<sup>2</sup>. The engine is a Yanmar 4JH2-TE with 63 hp fed by a 500 litre diesel tank. Behind these dry figures lies a yacht with character. Here is the story of becoming her sailors.

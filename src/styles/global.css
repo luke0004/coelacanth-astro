@@ -19,7 +19,7 @@ body {
 a {
   color: var(--text-color);
   text-decoration: none;
-  border-bottom: dashed 1px #555;
+  border-bottom: dashed 1px #bbb;
 }
 a:hover {
   color: var(--accent);
@@ -114,6 +114,39 @@ figcaption {
 
 .post-tags .tag:hover {
   background: #e0e0e0;
+}
+
+.post-card {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-thumbnail {
+  flex-shrink: 0;
+  border: none;
+}
+
+.post-thumbnail img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.post-thumbnail:hover {
+  border: none;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.post-content p {
+  margin: 0;
+  color: var(--text-color);
 }
 
 .pagination {

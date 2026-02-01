@@ -7,12 +7,13 @@ const pages = defineCollection({
 });
 
 const logbook = defineCollection({
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     date: z.date(),
     description: z.string().optional(),
     categories: z.array(z.string()).optional(),
     tags: z.array(z.string()).optional(),
+    image: image().optional(),
   }),
 });
 

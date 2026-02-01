@@ -4,6 +4,7 @@ date: 2022-04-30
 categories: ["Logbook"]
 tags: ["England"]
 description: "Our first North Sea crossing – from Den Helder to Lowestoft and back to IJmuiden and Amsterdam."
+image: ../../assets/20220426_lowestoft-1.jpg
 ---
 
 Our first North Sea crossing – from Den Helder to Lowestoft and back to IJmuiden and Amsterdam.
