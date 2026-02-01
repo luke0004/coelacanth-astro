@@ -11,7 +11,7 @@ It's a tradition to sail to the Frisian island of Terschelling over the days bet
 
 <figure>
 
-![](../../assets/20231226_Terschelling-christmas-scaled.jpg)
+![Waddenhaven Terschelling at Christmas with Brandaris lighthouse](../../assets/20231226_Terschelling-christmas-scaled.jpg)
 
 <figcaption>
 
@@ -27,7 +27,7 @@ Later, I built a simple 1:9 balun box with two 10 metre antenna wires that are c
 
 <figure>
 
-![Winter storm in Terschelling](../../assets/terschelling-2023-scaled.png)
+![Winter storm in Terschelling](../../assets/terschelling-2023-scaled.jpg)
 
 <figcaption>
 
@@ -39,7 +39,7 @@ Winter storm in Terschelling.
 
 <figure>
 
-![The cozy heat of the Dickinson Newport diesel heater.](../../assets/dickinson-heater-scaled.png)
+![The cozy heat of the Dickinson Newport diesel heater.](../../assets/dickinson-heater-scaled.jpg)
 
 <figcaption>
 
@@ -51,7 +51,7 @@ The cozy heat of the Dickinson Newport diesel heater.
 
 <figure>
 
-![Ice chart received by short-wave radio.](../../assets/ice-chart-scaled.png)
+![Ice chart received by short-wave radio.](../../assets/ice-chart-scaled.jpg)
 
 <figcaption>
 
@@ -63,7 +63,7 @@ Ice chart received by short-wave radio.
 
 <figure>
 
-![Weather chart](../../assets/weather-chart.png)
+![Weather chart](../../assets/weather-chart.jpg)
 
 <figcaption>
 

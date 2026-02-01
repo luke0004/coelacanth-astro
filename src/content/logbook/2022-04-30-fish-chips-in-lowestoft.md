@@ -15,7 +15,7 @@ The next day, we left with the tide for IJmuiden. Again, Dutch customs awaited u
 
 <figure>
 
-![](../../assets/20220422_denhelder-1.jpg)
+![Coelacanth moored at Den Helder](../../assets/20220422_denhelder-1.jpg)
 
 <figcaption>
 
@@ -27,7 +27,7 @@ Den Helder
 
 <figure>
 
-![](../../assets/20220426_lowestoft-1.jpg)
+![Coelacanth in Lowestoft harbour](../../assets/20220426_lowestoft-1.jpg)
 
 <figcaption>
 
@@ -39,7 +39,7 @@ Lowestoft
 
 <figure>
 
-![](../../assets/20220427_ijmuiden-1.jpg)
+![Arriving at IJmuiden](../../assets/20220427_ijmuiden-1.jpg)
 
 <figcaption>
 

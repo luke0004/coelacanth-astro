@@ -45,7 +45,7 @@ In van Goyen’s times, landscape paintings by less famous artists were affordab
 
 <figure>
 
-![](../../assets/IJsselmeer_2023_1.jpg)
+![Sailing on the IJsselmeer](../../assets/IJsselmeer_2023_1.jpg)
 
 <figcaption>
 
