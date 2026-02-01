@@ -8,11 +8,13 @@ export async function GET(context) {
     title: 'Coelacanth Logbook',
     description: 'Sailing voyages and refit notes from SV Coelacanth',
     site: context.site,
-    items: posts.map((post) => ({
-      title: post.data.title,
-      pubDate: post.data.pubDate,
-      description: post.data.description,
-      link: `/logbook/${post.slug}/`,
-    })),
+    items: posts
+      .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+      .map((post) => ({
+        title: post.data.title,
+        pubDate: post.data.date,
+        description: post.data.description,
+        link: `/logbook/${post.slug}/`,
+      })),
   });
 }

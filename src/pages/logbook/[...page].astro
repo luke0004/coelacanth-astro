@@ -13,7 +13,7 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props;
 ---
 
-<BaseLayout title="Coelacanth">
+<BaseLayout title="Logbook – Coelacanth" description="Sailing voyages and refit notes from SV Coelacanth, a Hutting 40 exploring the North Sea and beyond.">
   <h2>Logbook</h2>
   {page.data.map(post => (
     <article class="post-card">
