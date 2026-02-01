@@ -6,7 +6,7 @@ const pages = defineCollection({
   }),
 });
 
-const blog = defineCollection({
+const logbook = defineCollection({
   schema: z.object({
     title: z.string(),
     date: z.date(),
@@ -16,4 +16,4 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { pages, blog };
+export const collections = { pages, logbook };

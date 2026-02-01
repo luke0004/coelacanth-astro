@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const posts = (await getCollection('blog')).sort(
+const posts = (await getCollection('logbook')).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
 );
 ---
@@ -12,7 +12,7 @@ const posts = (await getCollection('blog')).sort(
     {posts.map(post => (
       <p>
         <small>{post.data.date.toLocaleDateString('en-GB')}</small><br />
-        <b><a href={`/blog/${post.slug}/`}>{post.data.title}</a></b>
+        <b><a href={`/logbook/${post.slug}/`}>{post.data.title}</a></b>
         <br />
         {post.data.description}
         <br /><br />

@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('logbook');
   const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
   return sortedPosts.map((post, index) => ({
@@ -26,12 +26,12 @@ const { Content } = await post.render();
 
   <nav class="post-nav">
     {prevPost && (
-      <a href={`/blog/${prevPost.slug}/`} class="prev">
+      <a href={`/logbook/${prevPost.slug}/`} class="prev">
         ← {prevPost.data.title}
       </a>
     )}
     {nextPost && (
-      <a href={`/blog/${nextPost.slug}/`} class="next">
+      <a href={`/logbook/${nextPost.slug}/`} class="next">
         {nextPost.data.title} →
       </a>
     )}

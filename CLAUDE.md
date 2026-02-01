@@ -24,8 +24,8 @@ Content is managed via Astro Content Collections defined in `src/content/config.
 ### Routing
 
 - `/` - Home page, renders `src/content/pages/home.md`
-- `/blog/` - Blog index listing all posts sorted by date descending
-- `/blog/[slug]/` - Individual blog post pages (dynamic routes via `getStaticPaths`)
+- `/logbook/` - Blog index listing all posts sorted by date descending
+- `/logbook/[slug]/` - Individual blog post pages (dynamic routes via `getStaticPaths`)
 
 ### Layout
 
