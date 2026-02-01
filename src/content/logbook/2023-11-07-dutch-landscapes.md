@@ -4,7 +4,7 @@ date: 2023-11-07
 categories: ["Logbook"]
 tags: ["Netherlands"]
 description: "A picturesque late autumn evening…"
-image: ../../assets/IJsselmeer_2023_1.jpg
+image: ../../assets/IJsselmeer_2023_2.jpg
 ---
 
 On a picturesque late autumn evening, we were just about to reach Enkhuizen – a charming village in the south-western corner of the IJsselmeer. As darkness fell, only a sliver of remaining light painted the towering clouds above the horizon in a gentle shade of purple. From the old town nearby, church bells carried a familiar melody across the dark water. Wet and cold from a few showers earlier, we were looking forward to dinner and a warming fire.

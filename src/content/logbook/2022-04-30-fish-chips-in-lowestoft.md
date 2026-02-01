@@ -3,7 +3,7 @@ title: "Fish and Chips in Lowestoft"
 date: 2022-04-30
 categories: ["Logbook"]
 tags: ["England"]
-description: "Our first North Sea crossing – from Den Helder to Lowestoft and back to IJmuiden and Amsterdam."
+description: "Our first North Sea crossing."
 image: ../../assets/20220426_lowestoft-1.jpg
 ---
 

@@ -3,7 +3,7 @@ title: "Christmas in Terschelling"
 date: 2023-12-31
 categories: ["Logbook", "Tinker"]
 tags: ["Netherlands"]
-description: "It's a tradition to sail to the Frisian island of Terschelling over the days between Christmas and New Year."
+description: "It's a tradition to sail to Terschelling over Christmas and New Year."
 image: ../../assets/20231226_Terschelling-christmas-scaled.jpg
 ---
 
