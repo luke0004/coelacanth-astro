@@ -116,6 +116,20 @@ figcaption {
   background: #e0e0e0;
 }
 
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: none;
+}
+
+.pagination .page-info {
+  color: #888;
+  font-size: 0.9rem;
+}
+
 .youtube-card {
   display: block;
   width: 100%;

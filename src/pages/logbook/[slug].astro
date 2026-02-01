@@ -21,6 +21,7 @@ const { Content } = await post.render();
 ---
 
 <BaseLayout title="Coelacanth">
+  <small>{post.data.date.toLocaleDateString('en-GB')}</small><br />
   <h2>{post.data.title}</h2>
   <Content />
 
