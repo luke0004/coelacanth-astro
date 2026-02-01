@@ -77,6 +77,25 @@ figcaption {
   text-align: right;
 }
 
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.post-tags .tag {
+  padding: 0.25rem 0.75rem;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.post-tags .tag:hover {
+  background: #e0e0e0;
+}
+
 .youtube-card {
   display: block;
   width: 100%;

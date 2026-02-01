@@ -24,6 +24,14 @@ const { Content } = await post.render();
   <h2>{post.data.title}</h2>
   <Content />
 
+  {post.data.tags && post.data.tags.length > 0 && (
+    <div class="post-tags">
+      {post.data.tags.map(tag => (
+        <a href={`/logbook/tag/${tag.toLowerCase()}/`} class="tag">{tag}</a>
+      ))}
+    </div>
+  )}
+
   <nav class="post-nav">
     {prevPost && (
       <a href={`/logbook/${prevPost.slug}/`} class="prev">
