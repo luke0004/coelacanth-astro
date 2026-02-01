@@ -1,0 +1,73 @@
+---
+interface Props {
+  url: string;
+  videoId?: string;
+}
+
+const { url, videoId } = Astro.props;
+
+// Parse YouTube URL to extract video ID or playlist ID
+function parseYouTubeUrl(url: string) {
+  const urlObj = new URL(url);
+
+  // Check for playlist
+  const playlistId = urlObj.searchParams.get('list');
+  if (playlistId && urlObj.pathname.includes('playlist')) {
+    return { type: 'playlist' as const, id: playlistId };
+  }
+
+  // Check for video ID in various formats
+  let videoId = urlObj.searchParams.get('v');
+  if (!videoId && urlObj.hostname === 'youtu.be') {
+    videoId = urlObj.pathname.slice(1);
+  }
+  if (!videoId && urlObj.pathname.includes('/embed/')) {
+    videoId = urlObj.pathname.split('/embed/')[1];
+  }
+
+  if (videoId) {
+    return { type: 'video' as const, id: videoId, playlistId };
+  }
+
+  return { type: 'unknown' as const, id: null };
+}
+
+const parsed = parseYouTubeUrl(url);
+// Use provided videoId prop, or extracted video ID from URL
+const thumbnailVideoId = videoId || (parsed.type === 'video' ? parsed.id : null);
+const thumbnailUrl = thumbnailVideoId
+  ? `https://img.youtube.com/vi/${thumbnailVideoId}/hqdefault.jpg`
+  : null;
+const isPlaylist = parsed.type === 'playlist';
+---
+
+<a href={url} target="_blank" rel="noopener noreferrer" class="youtube-card">
+  {thumbnailUrl ? (
+    <div class="youtube-thumbnail">
+      <img src={thumbnailUrl} alt="YouTube video thumbnail" loading="lazy" />
+      <div class="youtube-play">
+        <svg viewBox="0 0 68 48" width="68" height="48">
+          <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/>
+          <path d="M45 24 27 14v20" fill="#fff"/>
+        </svg>
+      </div>
+      {isPlaylist && (
+        <div class="youtube-playlist-badge">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h10v2H4zm14 0v4l4-2z"/>
+          </svg>
+          Playlist
+        </div>
+      )}
+    </div>
+  ) : (
+    <div class="youtube-playlist">
+      <div class="youtube-playlist-icon">
+        <svg viewBox="0 0 24 24" width="48" height="48" fill="#f00">
+          <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+        </svg>
+        <span>YouTube Playlist</span>
+      </div>
+    </div>
+  )}
+</a>

@@ -76,3 +76,76 @@ figcaption {
   margin-left: auto;
   text-align: right;
 }
+
+.youtube-card {
+  display: block;
+  width: 100%;
+  margin: 1.5rem 0;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.youtube-card:hover {
+  border: none;
+}
+
+.youtube-thumbnail {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.youtube-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.youtube-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.youtube-card:hover .youtube-play {
+  opacity: 1;
+}
+
+.youtube-playlist-badge {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 0.75rem;
+  border-radius: 4px;
+}
+
+.youtube-playlist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  border-radius: 8px;
+}
+
+.youtube-playlist-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
