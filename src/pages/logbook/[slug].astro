@@ -35,12 +35,12 @@ const { Content } = await post.render();
   <nav class="post-nav">
     {prevPost && (
       <a href={`/logbook/${prevPost.slug}/`} class="prev">
-        ← {prevPost.data.title}
+        ← Previous Entry
       </a>
     )}
     {nextPost && (
       <a href={`/logbook/${nextPost.slug}/`} class="next">
-        {nextPost.data.title} →
+        Next Entry →
       </a>
     )}
   </nav>

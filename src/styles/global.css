@@ -26,7 +26,7 @@ a:hover {
 }
 
 header, footer {
-    text-align: center;
+  text-align: center;
   padding: 1rem;
   background: var(--bg-color);
 }
@@ -60,7 +60,7 @@ figcaption {
   justify-content: space-between;
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid #ccc;
+  border-top: none;
   gap: 1rem;
 }
 
