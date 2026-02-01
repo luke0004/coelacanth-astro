@@ -136,6 +136,12 @@ figcaption {
   border: none;
 }
 
+@media (max-width: 600px) {
+  .post-thumbnail {
+    display: none;
+  }
+}
+
 .post-thumbnail img {
   width: 150px;
   height: 100px;
