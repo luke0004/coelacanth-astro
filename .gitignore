@@ -29,3 +29,4 @@ pnpm-debug.log*
 # Claude Code
 .claude/
 claude.md
+claude.md.orig

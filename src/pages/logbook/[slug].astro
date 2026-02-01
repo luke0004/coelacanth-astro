@@ -21,7 +21,7 @@ const { Content } = await post.render();
 const ogImage = post.data.image?.src || undefined;
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description} image={ogImage}>
+<BaseLayout title="Coelacanth" description={post.data.description} image={ogImage}>
   <small>{post.data.date.toLocaleDateString('en-GB')}</small><br />
   <h2>{post.data.title}</h2>
   <Content />
