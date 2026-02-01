@@ -14,7 +14,7 @@ In June 2024, we set sail from Vlieland, bound for Norway — but the wind had o
 
 When I got up into the cockpit to take the night watch over from my son, he showed me the most intense glowing trail Coelacanth was leaving behind in the water. Bioluminescent plankton (most likely [Noctiluca scintillans](https://coelacanth.ch/a-north-sea-crossing-to-whitby/), as observed on a previous journey) is mechanically activated to emit light. The chemical explanation cannot describe the spectacle of gliding through a trail of light in the dark sea.
 
-##### Esbjerg, a place of transitions
+### Esbjerg, a place of transitions
 
 Esbjerg is one of these places where sailors meet in transition, discussing their plans and the weather. It's one of the few harbours on Denmark's west coast that is accessible also in unfavourable conditions – although through a rough approach channel though the shallow water. Many ships have catastrophically stranded on the Danish lee shore in westerly gales. The marina is modern, albeit with the number of toilets and showers is in dysbalance with the number of berths. To shower, we had to pass through the club room of the welcoming local boaters enjoying their lounge. The queue grew quite long in the morning even though only three visiting sailing yachts were in the marina.
 
@@ -22,7 +22,7 @@ One of the yachts that arrived a few hours after us was a Germán Frers 48 with 
 
 Funny enough, we met one of the Dutch sailors again in Vlieland when we returned from our five-islands-North-Sea trip.
 
-##### Another Change in Plan
+### Another Change in Plan
 
 Running out of time, we gave up on our plan to reach Norway and went on to Fanø, that one of the local sailors called the prettiest of the Danish isles. We met an economic professor planning his retirement – selling sandwiches and bird photographs in his bar. He recommended to visit the south of Fanø. So we rented bikes and cycled to Sønderho – a beautiful village.
 

@@ -14,8 +14,6 @@ After a night in Lowestoft, we sailed into the River Blyth and moored in the tow
 
 <figure>
 
-<figure>
-
 ![](../../assets/Southwold_20230904_162220-scaled.jpg)
 
 <figcaption>
@@ -59,7 +57,5 @@ St Edmund's Church, Southwold
 Morning in Southwold
 
 </figcaption>
-
-</figure>
 
 </figure>

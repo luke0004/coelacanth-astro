@@ -36,7 +36,7 @@ Our second night at anchor grew friskier with gusts around twenty knots downrive
 
 <figure>
 
-![](../../assets/river-crouch-beagle_20250909-scaled.jpg)
+![Darwin’s HMS Beagle](../../assets/river-crouch-beagle_20250909-scaled.jpg)
 
 <figcaption>
 
@@ -56,7 +56,7 @@ A series of low-pressure systems approaching from the Atlantic would shape the w
 
 Lines were cast off after lunch on the Yacht Club’s terrace overseeing the Orwell. Our elaborate planning effort was rewarded with lightning and hail squalls soaking us just minutes after departure. We hugged the coast and watched the last cumulonimbus towers pass on the radar. The squalls had sucked all the wind away for a calm moment, but then Coelacanth accelerated and stood offshore.
 
-![](../../assets/To-East-England-Journey-3-Sextant.jpg)
+![Sextant navigation](../../assets/To-East-England-Journey-3-Sextant.jpg)
 
 The night sky was clear, and the two-hour night watches were brightened by Venus and Jupiter. The next day was sunny with cumulus clouds forming in the afternoon. We sailed on a broad reach under main and yankee sail. By then, the sky behind us was a structureless grey curtain reaching down to the horizon. We swiftly rolled a second reef into the main sail. Coelacanth smashed the crest of the waves into flying spray. Rain fell, and the wind reached thirty knots. Dutch Coastguard radioed a gale warning.
 

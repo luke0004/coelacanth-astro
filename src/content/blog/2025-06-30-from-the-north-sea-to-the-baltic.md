@@ -14,7 +14,7 @@ Actually, we had planned to further explore the rivers of East England. But the 
 
 So the Baltic Sea it was. A night passage along the Frisian islands into river Elbe, crossing the Kiel canal, and enjoying a week of island hopping in the Danish archipelago south of Funen. A chart was bought, and off we went.
 
-##### Along the Frisian Islands
+### Along the Frisian Islands
 
 We left Makkum with the tide, slipping through the lock of Kornwerderzand – leaving what was once the Zuiderzee. In the Golden Age, Dutch ships sailed from here to the North Sea, eastward into the Baltic to the Hanseatic cities of Lübeck, Danzig, and Riga, and the Spice route in the Far East. The winds haven’t changed much. Nor the currents.
 
@@ -26,7 +26,7 @@ Finally, we reached river Elbe and began the long approach to the locks of the K
 
 Immediately after the lock, there is a small marina surrounded by trees on one side and the locks on the other – steel, red brick construction, huge container shipes from all over the world. Once in the small marina of Brunsbüttel, we settled for the night, tired from the 36-hour passage. After the overnight passage along the Frisian islands and the long Elbe approach, sleep fell so fast and empty of dreams that the night seemed to have rushed by in only a few hours.
 
-##### The Lock Between Two Waters
+### The Lock Between Two Waters
 
 When we woke, the sun was already bright. A few espressos later, and after an unhurried walk through the town, we were visited by two cheerful German customs officials. One of the officers shared, with dry amusement, tales of Germans attempting to avoid tax by flying a false Swiss flag. Some of them declare their home port to be Zurich – betraying their lack of knowledge that Basel is the only Swiss port connected to the sea via river Rhine.
 
@@ -36,7 +36,7 @@ At first light, we cast off. The canal was quieter than expected. Ships passed i
 
 When we finally arrived at the lock in Kiel, there were a half-dozen sailboats waiting for the opening of the lock. Being used to Dutch habits, we entered as the gate opened, only to be greeted by a flurry of whistles and raised arms from a German yacht ahead. The couple within, earnest defenders of lock etiquette, viewed our manoeuvre as a breach of order. We hung back, smiling. The lock was large enough to swallow us all – and many more besides.
 
-In “The Riddle of the Sands”, Erskine Childers described: “We \[…\] tumbled down our sails and came to under the colossal gates of the Holtenau lock. That these would open \[…\] seemed inconceivable, but open they did, with ponderous majesty and our tiny hull was lost in the womb of a lock designed to float the largest battle ships.” And so it was again. With only a gentle shift of water level beneath us, the gates drew slowly apart, revealing the shining reach of the Baltic. The Kieler Förde lay ahead, bright with wind. Sailboats gybed, daysailors waved, enjoying the wind and sun.
+In “The Riddle of the Sands”, Erskine Childers described: “We … tumbled down our sails and came to under the colossal gates of the Holtenau lock. That these would open … seemed inconceivable, but open they did, with ponderous majesty and our tiny hull was lost in the womb of a lock designed to float the largest battle ships.” And so it was again. With only a gentle shift of water level beneath us, the gates drew slowly apart, revealing the shining reach of the Baltic. The Kieler Förde lay ahead, bright with wind. Sailboats gybed, daysailors waved, enjoying the wind and sun.
 
 As we reached the lighthouse, a glimpse over the stern revealed a cloud reaching down to the sea: a squall. The sky darkened, abruptly, and the rain came in stinging gusts. Seven Beaufort, as sharp as it was brief.  
 Then just as quickly, sun again.
@@ -45,7 +45,7 @@ We crossed the Kieler Bucht to enter the waters of Denmark. After about thirty m
 
 We had almost reached our destination – the Danish archipelago south of Funen: a scatter of green islands across a sea of shades of blue.
 
-##### The Danish Archipelago South of Funen
+### The Danish Archipelago South of Funen
 
 Our course took us along the low outline of Marstal – a town with centuries of sailing tradition. Marstal’s history is built on shipbuilding, crafting schooners that sailed from the Baltic to distant oceans. Generations of sailors left from here and went around the world.
 
@@ -55,7 +55,7 @@ A front approached, and the rain came with high winds. Our space in the corner o
 
 <figure>
 
-![](../../assets/20250605_stryno.jpg)
+![Strynø](../../assets/20250605_stryno.jpg)
 
 <figcaption>
 
@@ -77,7 +77,7 @@ The island was quiet. We wandered along the shoreline, the rain trailing off in 
 
 <figure>
 
-![](../../assets/20250607_aero.jpg)
+![Ærø](../../assets/20250607_aero.jpg)
 
 <figcaption>
 
@@ -93,7 +93,7 @@ Behind gently curved cliffs, we entered the fjord of Faaborg. The fairway wound 
 
 <figure>
 
-![](../../assets/lyo.jpg)
+![Lyø](../../assets/lyo.jpg)
 
 <figcaption>
 
@@ -107,7 +107,7 @@ At Lyø’s grocery store, we met our neighbours from the sailboat next to us re
 
 A rest of the rainy day in Lyø was spent under deck reading and taking advantage of a short hour without downpour to explore the island and replenish provisions at a grocery selling the most needed goods. After a week sailing between the isles in blue and turquoise waters, it was time to think of the way back – through the Small Belt, towards Kiel, and back home into the North Sea.
 
-##### Decision at the Lock
+### Decision at the Lock
 
 We were leaving the Danish archipelago behind. Low islands, quiet anchorages, small harbours where time seemed to slow. Now, the course was set west – toward the North Sea. On our way back to the Netherlands, the first leg led us from Lyø to Kiel.
 
@@ -119,7 +119,7 @@ After a few hours, sailing from Denmark to Germany, we arrived at the mouth of t
 
 <figure>
 
-![](../../assets/maasholm.jpg)
+![Maasholm](../../assets/maasholm.jpg)
 
 <figcaption>
 
@@ -135,7 +135,7 @@ The weather forecast promised a quiet night. At nine o’clock sharp – exactly
 
 <figure>
 
-![](../../assets/20250611_maasholm.jpg)
+![Maasholm](../../assets/20250611_maasholm.jpg)
 
 <figcaption>
 
@@ -155,7 +155,7 @@ A look at the wind forecast confirmed: there was only a short weather window to 
 
 It was time to make a decision: would we make it to the North Sea to catch the easterly winds forecast to last perhaps 48 hours at best? Could we pass the canal in time for the strong tide of river Elbe flowing into the North Sea? After that, it would be headwinds for a week. And only racers and idiots sail upwind.
 
-##### Back in Tide
+### Back in Tide
 
 We were at the lock of the Kiel canal, and the North Sea offered only a narrow weather window: easterly winds for 24 hours. After that, the forecast shifted – back to headwinds and, perhaps, thunderstorms, then no wind.
 
@@ -181,7 +181,7 @@ We altered course, turned toward the Wadden Sea, and aimed for Lauwersoog. There
 
 We reached Lauwersoog at sunset. It had been 36 hours since we left Kiel. 180 miles from the Baltic to the Wadden Sea. We drank a quiet beer and slept for ten hours without dreams.
 
-##### Blue to Green
+### Blue to Green
 
 The next day, we entered the Robbengatsluis – the gate into the Lauwersmeer. The lock was busy with weekenders. We were number four in line to enter the lock at port side, the energetic lock keeper told us after asking for length and width of Coelacanth. She assessed the first half-dozen boats at a glance, arranged them mentally like pieces in a tray, and waved us in accordingly. Within moments, the gates were closed.
 
@@ -195,7 +195,7 @@ We turned into the soft water among the meadows, and the world shifted: the blue
 
 <figure>
 
-![](../../assets/20250615_friesland-ee.jpg)
+![Frisian canal near Ee](../../assets/20250615_friesland-ee.jpg)
 
 <figcaption>
 

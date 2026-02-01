@@ -21,7 +21,8 @@ const { title } = Astro.props;
     <nav>
       <a href="/">The Ship</a> | 
       <a href="/blog/">Logbook</a> | 
-      <a href="https://www.youtube.com/@sy.coelacanth">YouTube</a>
+      <a href="https://www.youtube.com/@sy.coelacanth">YouTube</a> | 
+      <a href="mailto:ahoy@coelacanth.ch">Contact</a>
     </nav>
   </header>
 
@@ -30,7 +31,9 @@ const { title } = Astro.props;
   </main>
 
   <footer>
-    © {new Date().getFullYear()} Coelacanth
+    <small></small>
+      © {new Date().getFullYear()} Coelacanth | <a href="https://coelacanth.ch/rss.xml">RSS-Feed</a>
+    </small>
   </footer>
 
 </body>

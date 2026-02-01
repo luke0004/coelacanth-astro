@@ -22,9 +22,7 @@ The return led us to IJmuiden, through the Nordzeekanaal to Amsterdam's Sixhaven
 
 <figure>
 
-<figure>
-
-![](../../assets/Church-Ramsholt_20240907-scaled.jpg)
+![All Saints Church Ramsholt](../../assets/Church-Ramsholt_20240907-scaled.jpg)
 
 <figcaption>
 
@@ -36,7 +34,7 @@ All Saints Church Ramsholt with its round church tower overlooking River Deben.
 
 <figure>
 
-![](../../assets/Ramsholt-Arms-scaled.jpg)
+![Ramsholt Arms at River Deben](../../assets/Ramsholt-Arms-scaled.jpg)
 
 <figcaption>
 
@@ -48,7 +46,7 @@ Ramsholt Arms at River Deben
 
 <figure>
 
-![](../../assets/river-orwell_20240905_191213-scaled.jpg)
+![River Orwell](../../assets/river-orwell_20240905_191213-scaled.jpg)
 
 <figcaption>
 
@@ -60,14 +58,12 @@ River Orwell
 
 <figure>
 
-![](../../assets/Southwold-paella_20240902_200532-scaled.jpg)
+![North Sea Paella](../../assets/Southwold-paella_20240902_200532-scaled.jpg)
 
 <figcaption>
 
 Self-cooked North Sea Paella in Southwold.
 
 </figcaption>
-
-</figure>
 
 </figure>

@@ -14,8 +14,6 @@ The next day, we left with the tide for IJmuiden. Again, Dutch customs awaited u
 
 <figure>
 
-<figure>
-
 ![](../../assets/20220422_denhelder-1.jpg)
 
 <figcaption>
@@ -47,7 +45,5 @@ Lowestoft
 IJmuiden
 
 </figcaption>
-
-</figure>
 
 </figure>

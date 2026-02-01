@@ -26,9 +26,7 @@ Later, I built a simple 1:9 balun box with two 10 metre antenna wires that are c
 
 <figure>
 
-<figure>
-
-![](../../assets/terschelling-2023-scaled.png)
+![Winter storm in Terschelling](../../assets/terschelling-2023-scaled.png)
 
 <figcaption>
 
@@ -40,7 +38,7 @@ Winter storm in Terschelling.
 
 <figure>
 
-![](../../assets/dickinson-heater-scaled.png)
+![The cozy heat of the Dickinson Newport diesel heater.](../../assets/dickinson-heater-scaled.png)
 
 <figcaption>
 
@@ -52,7 +50,7 @@ The cozy heat of the Dickinson Newport diesel heater.
 
 <figure>
 
-![](../../assets/ice-chart-scaled.png)
+![Ice chart received by short-wave radio.](../../assets/ice-chart-scaled.png)
 
 <figcaption>
 
@@ -64,14 +62,12 @@ Ice chart received by short-wave radio.
 
 <figure>
 
-![](../../assets/weather-chart.png)
+![Weather chart](../../assets/weather-chart.png)
 
 <figcaption>
 
 Weather chart received by short-wave radio and a simple wire antenna in the mast.
 
 </figcaption>
-
-</figure>
 
 </figure>
