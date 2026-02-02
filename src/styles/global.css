@@ -1,10 +1,45 @@
 :root {
   --text-color: #555;
   --bg-color: #ffffff;
-  --accent: #0b6efd;
   --max-width: 800px;
   --font-body: "Courier Prime", monospace, Courier, Helvetica, Arial, sans-serif;
   --font-heading: "EB Garamond", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #ccc;
+    --bg-color: #1a1a1a;
+  }
+
+  img {
+    opacity: 0.9;
+  }
+
+  figcaption,
+  .pagination .page-info {
+    color: #888;
+  }
+
+  a {
+    text-decoration-color: #555;
+  }
+
+  .post-tags .tag {
+    background: #333;
+  }
+
+  .post-tags .tag:hover {
+    background: #444;
+  }
+
+  .skip-link {
+    color: #1a1a1a;
+  }
+
+  .not-found h2 {
+    color: #444;
+  }
 }
 
 html {
@@ -18,13 +53,30 @@ body {
   line-height: 1.6;
 }
 
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding: 0.5rem 1rem;
+  background: #0b6efd;
+  color: #fff;
+  border: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 a {
   color: var(--text-color);
-  text-decoration: none;
-  border-bottom: dashed 1px #bbb;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  text-underline-offset: 3px;
 }
 a:hover {
-  color: var(--accent);
+  color: #0b6efd;
+  text-decoration-color: #0b6efd;
 }
 
 header, footer {
@@ -32,6 +84,7 @@ header, footer {
   padding: 1rem;
   background: var(--bg-color);
 }
+
 
 main {
   max-width: var(--max-width);
@@ -167,12 +220,18 @@ figcaption {
 .post-content {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0rem;
 }
 
 .post-content p {
   margin: 0;
   color: var(--text-color);
+}
+
+.post-content b {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .pagination {
