@@ -195,7 +195,7 @@ figcaption {
 .post-thumbnail {
   flex-shrink: 0;
   border: none;
-  filter: grayscale(0%) contrast(100%) brightness(100%);
+  filter: grayscale(40%) sepia(30%) contrast(75%) brightness(107%);
   transition: filter 0.3s ease;
 }
 
@@ -214,7 +214,7 @@ figcaption {
 
 .post-thumbnail:hover {
   border: none;
-  filter: grayscale(0%) contrast(80%) brightness(110%);
+  filter: grayscale(00%) sepia(30%) contrast(100%) brightness(100%);
 }
 
 .post-content {
