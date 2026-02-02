@@ -102,6 +102,12 @@ figcaption {
   aspect-ratio: 3 / 2;
   border-radius: 4px;
   cursor: pointer;
+  filter: grayscale(0%) contrast(100%) brightness(100%);
+  transition: filter 0.3s ease;
+}
+
+.gallery img:hover {
+  filter: grayscale(0%) contrast(80%) brightness(110%);
 }
 
 .gallery p {
@@ -136,6 +142,8 @@ figcaption {
 .post-thumbnail {
   flex-shrink: 0;
   border: none;
+  filter: grayscale(0%) contrast(100%) brightness(100%);
+  transition: filter 0.3s ease;
 }
 
 @media (max-width: 600px) {
@@ -153,6 +161,7 @@ figcaption {
 
 .post-thumbnail:hover {
   border: none;
+  filter: grayscale(0%) contrast(80%) brightness(110%);
 }
 
 .post-content {

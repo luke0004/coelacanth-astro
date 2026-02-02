@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import { ViewTransitions } from 'astro:transitions';
 import { SITE, NAV_LINKS } from '../config';
+import Lightbox from '../components/Lightbox.astro';
 
 interface Props {
   title?: string;
@@ -70,5 +71,6 @@ const fullImageURL = new URL(metaImage, Astro.site).toString();
     <small>© {new Date().getFullYear()} {SITE.name} | <a href="rss.xml">RSS-Feed</a></small>
   </footer>
 
+  <Lightbox />
 </body>
 </html>
