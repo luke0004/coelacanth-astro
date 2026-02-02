@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { PATHS, SITE } from '../../config';
 
 export async function getStaticPaths() {
   const posts = await getCollection('logbook');
@@ -21,27 +22,26 @@ const { Content } = await post.render();
 const ogImage = post.data.image?.src || undefined;
 ---
 
-<BaseLayout title="Coelacanth" description={post.data.description} image={ogImage}>
-  <small>{post.data.date.toLocaleDateString('en-GB')}</small><br />
-  <h2>{post.data.title}</h2>
+<BaseLayout title={post.data.title} description={post.data.description} image={ogImage}>
+  <small>{post.data.date.toLocaleDateString(SITE.locale)}</small>
   <Content />
 
   {post.data.tags && post.data.tags.length > 0 && (
     <div class="post-tags">
       {post.data.tags.map(tag => (
-        <a href={`/logbook/tag/${tag.toLowerCase()}/`} class="tag">{tag}</a>
+        <a href={`${PATHS.logbook}/tag/${tag.toLowerCase()}/`} class="tag">{tag}</a>
       ))}
     </div>
   )}
 
   <nav class="post-nav">
     {prevPost && (
-      <a href={`/logbook/${prevPost.slug}/`} class="prev">
+      <a href={`${PATHS.logbook}/${prevPost.slug}/`} class="prev">
         ← Previous Entry
       </a>
     )}
     {nextPost && (
-      <a href={`/logbook/${nextPost.slug}/`} class="next">
+      <a href={`${PATHS.logbook}/${nextPost.slug}/`} class="next">
         Next Entry →
       </a>
     )}

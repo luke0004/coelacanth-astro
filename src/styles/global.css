@@ -3,10 +3,12 @@
   --bg-color: #ffffff;
   --accent: #0b6efd;
   --max-width: 800px;
+  --font-body: "Courier Prime", monospace, Courier, Helvetica, Arial, sans-serif;
+  --font-heading: "EB Garamond", serif;
 }
 
 html {
-  font-family: "Courier Prime", monospace, Courier, Helvetica, Arial, sans-serif;
+  font-family: var(--font-body);
   color: var(--text-color);
   background: var(--bg-color);
 }
@@ -38,7 +40,7 @@ main {
 }
 
 h1, h2, h3 {
-  font-family: "EB Garamond", serif;
+  font-family: var(--font-heading);
   font-weight: 600;
   line-height: 1.25;
 }

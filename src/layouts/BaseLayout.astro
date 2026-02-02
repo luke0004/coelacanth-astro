@@ -1,23 +1,26 @@
 ---
 import '../styles/global.css';
 import { ViewTransitions } from 'astro:transitions';
+import { SITE, NAV_LINKS } from '../config';
 
 interface Props {
-  title: string;
+  title?: string;
   description?: string;
   image?: string;
 }
 
 const { title, description, image } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const defaultDescription = "Sailing voyages and refit notes from SV Coelacanth, a Hutting 40 exploring the North Sea and beyond.";
-const defaultImage = "/og-image.jpg";
-const metaDescription = description || defaultDescription;
+const defaultImage = SITE.defaultImage;
+
+// Build page title: "Page Title | Site Name" or just "Site Name" for homepage
+const pageTitle = title ? `${title} | ${SITE.name}` : SITE.name;
+const metaDescription = description || SITE.description;
 const metaImage = image || defaultImage;
 const fullImageURL = new URL(metaImage, Astro.site).toString();
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang={SITE.lang}>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -29,14 +32,14 @@ const fullImageURL = new URL(metaImage, Astro.site).toString();
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonicalURL} />
-  <meta property="og:title" content={title} />
+  <meta property="og:title" content={pageTitle} />
   <meta property="og:description" content={metaDescription} />
   <meta property="og:image" content={fullImageURL} />
-  <meta property="og:site_name" content="Coelacanth" />
+  <meta property="og:site_name" content={SITE.name} />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content={title} />
+  <meta name="twitter:title" content={pageTitle} />
   <meta name="twitter:description" content={metaDescription} />
   <meta name="twitter:image" content={fullImageURL} />
 
@@ -45,18 +48,17 @@ const fullImageURL = new URL(metaImage, Astro.site).toString();
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
-  <title>{title}</title>
+  <title>{pageTitle}</title>
   <ViewTransitions />
 </head>
 <body>
 
   <header>
-    <h1>{title}</h1>
+    <h1>{SITE.name}</h1>
     <nav>
-      <a href="/">The Ship</a> | 
-      <a href="/logbook/">Logbook</a> | 
-      <a href="https://www.youtube.com/@sy.coelacanth">YouTube</a> | 
-      <a href="mailto:ahoy@coelacanth.ch">Contact</a>
+      {NAV_LINKS.map((link, i) => (
+        <>{i > 0 && " | "}<a href={link.href}>{link.label}</a></>
+      ))}
     </nav>
   </header>
 
@@ -65,9 +67,7 @@ const fullImageURL = new URL(metaImage, Astro.site).toString();
   </main>
 
   <footer>
-    <small></small>
-      © {new Date().getFullYear()} Coelacanth | <a href="rss.xml">RSS-Feed</a>
-    </small>
+    <small>© {new Date().getFullYear()} {SITE.name} | <a href="rss.xml">RSS-Feed</a></small>
   </footer>
 
 </body>
