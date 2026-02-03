@@ -23,6 +23,7 @@ const ogImage = post.data.image?.src || undefined;
 ---
 
 <BaseLayout title={post.data.title} description={post.data.description} image={ogImage}>
+  <h1>{post.data.title}</h1>
   <small>{post.data.date.toLocaleDateString(SITE.locale)}</small>
   <Content />
 
