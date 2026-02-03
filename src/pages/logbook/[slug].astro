@@ -24,6 +24,7 @@ const ogImage = post.data.image?.src || undefined;
 
 <BaseLayout title={post.data.title} description={post.data.description} image={ogImage}>
   <small>{post.data.date.toLocaleDateString(SITE.locale)}</small>
+  <h2>{post.data.title}</h2>
   <Content />
 
   {post.data.tags && post.data.tags.length > 0 && (
