@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getEntryBySlug } from 'astro:content';
 
 const page = await getEntryBySlug('pages', 'home');
+if (!page) throw new Error("Missing required content entry: pages/home");
 const { Content } = await page.render();
 ---
 
